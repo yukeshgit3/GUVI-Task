@@ -1,0 +1,56 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin-top: 50px;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #161515;
+}
+
+h2 {
+  text-align:center;
+  font-size: 40px;
+}
+
+.form-group {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.form-group input{
+    padding:10px ;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+  margin: 20px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: aqua;
+
+}
+.register{
+  margin: auto;
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+
+}
+button{
+  padding: 10px;
+  font-size: 20px;
+}
+.register a:hover{
+     color: rgb(170, 27, 27);
+}
+.register a{
+  color:white;
+}
+button:hover{
+  background-color: rgb(56, 17, 148);
+}

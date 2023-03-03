@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<script src="profile.js"></script>
+<head>
+	<title>Profile page</title>
+	<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+	<h1>PROFILE</h1>
+	<form method="post" action="profile.php">
+		<label for="name">Full Name :</label>
+		<input type="text" name="name" id="name" required>
+		<br>
+		<label for="email">Email :</label>
+		<input type="email" name="email" id="email" required>
+		<br>
+        <label for="email">Address :</label>
+		<input type="text" name="address" id="email" required>
+        <br>
+		<label for="message">DOB :</label>
+		<input type="date" name="dob" id="message" required>
+		<br>
+	
+        <div id="button">
+            <button type="submit" name="submit">Submit</button>
+            <br> 
+			<button id="logoutbutton" onclick="clickinner();">Logout</button>
+			   
+          
+
+        </div>
+        
+		
+	</form>
+	
+</body>
+</html>
